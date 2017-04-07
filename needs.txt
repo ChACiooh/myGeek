@@ -1,0 +1,2 @@
+how to control the size of images
+if user click(tap) the cell of video List, how to open the cite with the url written.

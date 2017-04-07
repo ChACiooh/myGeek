@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C600C489599DC6919A48FE8DB32C74FA54F951EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D1EA81E2114D4366303642BA2F95EA79CDC142BF" : 9223372036854775807,
+    "C600C489599DC6919A48FE8DB32C74FA54F951EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AAEF7B87-8826-4E21-BE08-98F3340AC571",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D1EA81E2114D4366303642BA2F95EA79CDC142BF" : "",
+    "C600C489599DC6919A48FE8DB32C74FA54F951EF" : "MyGeek\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyGeek",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyGeek.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChACiooh\/myGeek.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C600C489599DC6919A48FE8DB32C74FA54F951EF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ChACiooh\/Civito.Quiz",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1EA81E2114D4366303642BA2F95EA79CDC142BF"
+    }
+  ]
+}

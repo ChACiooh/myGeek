@@ -16,9 +16,9 @@ class ServiceListViewController: UITableViewController {
         super.viewDidLoad()
         // 저장된 기반을 바탕으로 로드하는 작업을 한다.
         // 현재는 코드 상에서 constantly 전달하지만 나중엔 파일에서 로드하는 방식?으로
-        self.musicGameMachines += [GameMachine("beatmania IIDX")]
-        self.musicGameMachines += [GameMachine("SOUND VOLTEX")]
-        self.musicGameMachines[0].videos = [Video("ALBA")]
+        self.musicGameMachines += [GameMachine("beatmania IIDX", type: IIDX)]
+        self.musicGameMachines += [GameMachine("SOUND VOLTEX", type: SDVX)]
+        self.musicGameMachines[0].videos = [Video("ALBA -黎明- SP Another", url:"https://www.youtube.com/watch?v=ZE54ZrUxsMo")]
         
         self.musicGameMachines[0].updateNumOfItems()
         
@@ -55,7 +55,9 @@ class ServiceListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "musicGame", for: indexPath)
 
         // Configure the cell...
-        cell.imageView?.image = UIImage(named: "400px-SINOBUZ")
+        if musicGameMachines[indexPath.row].type == IIDX {
+            cell.imageView?.image = UIImage(named: "400px-SINOBUZ")
+        }
         // 셀 구분선은 seperator에 대한 속성으로
         cell.textLabel?.text = musicGameMachines[indexPath.row].name
         cell.detailTextLabel?.text = "\(musicGameMachines[indexPath.row].numOfItems)"
